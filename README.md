@@ -4,7 +4,7 @@
 A chatbot with bitmoji reactions. Implemented in [React](https://reactjs.org/).
 
 
-### The deployed version can be found at [BotMoji](https://vedant1202.github.io/botmoji/login)
+### The deployed version can be found at [BotMoji](https://vedant1202.github.io/botmoji)
 
 
 
