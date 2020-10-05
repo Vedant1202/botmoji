@@ -122,6 +122,10 @@ pip3 install rasa
 rasa run --enable-api --cors "*"
 ```
 
+### Part 3: SnapKit SDK
+
+You need to create account on [Snapkit Developer Portal](https://kit.snapchat.com/) and then edit the respective parts at [index.html](https://github.com/Vedant1202/botmoji/blob/234e8d0d8ed40b19cb122bbccdf4278fb5d84119/frontend/public/index.html#L46).
+
 ### For a reference of packages installed, I've also listed a [requirements.txt](https://github.com/Vedant1202/botmoji/blob/master/rasa-smalltalk/requirements.txt) file. 
 
 
