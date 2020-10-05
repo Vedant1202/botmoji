@@ -5,8 +5,9 @@ A chatbot with bitmoji reactions. Implemented in [React](https://reactjs.org/).
 
 
 ### The deployed version can be found at [BotMoji](http://app.botmoji.tk:3000/)
-### This version has a sample user already defined, as the app is not published on the Snapkit SDK and is still in the development phase.
+### The live version has a sample user already defined, as the app is not published on the Snapkit SDK and is still in the development phase (although this can be changed in the config file during local development).
 
+### It has a demo youtube video which you can watch here -> [BotMoji Demo](https://youtu.be/Sxta__8P8dA).
 
 
 ## Screencasts
