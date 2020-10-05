@@ -54,7 +54,7 @@
             snap.loginkit.fetchUserInfo().then(
               function (result) {
                 localStorage.setItem('snap-user', JSON.stringify(result.data.me));
-                window.location.assign('/');
+                window.location.reload();
               },
               function (err) {
                 console.log(err); // Error
