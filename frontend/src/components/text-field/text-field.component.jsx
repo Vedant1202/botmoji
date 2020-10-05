@@ -13,7 +13,7 @@ class TextField extends React.Component {
     super(props);
 
     this.state = {
-      message: null,
+      message: '',
     }
 
     this.onChange = this.onChange.bind(this);
