@@ -13,7 +13,7 @@ A chatbot with bitmoji reactions. Implemented in [React](https://reactjs.org/).
 
 1. Login
 
-![Login](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/login.png)
+![Login](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/login.PNG)
 
 2. Home Page
 
