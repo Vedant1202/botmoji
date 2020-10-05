@@ -53,6 +53,10 @@ class TextField extends React.Component {
       this.props.setCurrentMessages({
         messages: [...currMessages],
       });
+
+      this.setState({
+        message: '',
+      })
       
       const response = await axios.post(`${config.rasaUrl}/webhooks/rest/webhook`, data);
       
@@ -73,10 +77,6 @@ class TextField extends React.Component {
       this.props.setCurrentMessages({
         messages: [...currMessages],
       });
-
-      this.setState({
-        message: '',
-      })
     }
   }
 
