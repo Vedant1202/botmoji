@@ -1,0 +1,10 @@
+{
+  "name": "botmoji",
+  "version": "1.0.0",
+  "description": "A chatbot that expresses itself in bitmoji",
+  "main": "N/A",
+  "repository": "https://github.com/Vedant1202/botmoji",
+  "author": "Vedant Nandoskar",
+  "license": "MIT",
+  "private": false
+}
