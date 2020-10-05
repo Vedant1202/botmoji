@@ -11,18 +11,29 @@ A chatbot with bitmoji reactions. Implemented in [React](https://reactjs.org/).
 ## Screencasts
 
 
-1. 1
+1. Login
 
-![]()
+![Login](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/login.png)
 
-2. 2
+2. Home Page
 
-![]()
+![](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/home-default.png)
 
-3. GIF
+3. Hello
 
-![BotMoji]()
+![](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/Hello.png)
 
+4. What's up
+
+![](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/whatsup.png)
+
+5. Have some fun with botmoji
+
+![](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/fun.png)
+
+6. Botmoji also understands humor!
+
+![](https://raw.githubusercontent.com/Vedant1202/botmoji/master/screenshots/joke.png)
 
 
 ## Installation
