@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 // import logo from './logo.svg';
 import './App.css';
@@ -31,6 +31,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <HashRouter basename='/'>
         <Switch>
         <Route
           exact
@@ -57,6 +58,7 @@ class App extends React.Component {
           ></Route>
           <Route path='*' component={ErrorPage}></Route>
         </Switch>
+        </HashRouter>
       </div>
     );
   }
