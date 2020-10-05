@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/botmoji/static/css/main.78ff8561.chunk.css",
+    "main.js": "/botmoji/static/js/main.a5be4adc.chunk.js",
+    "main.js.map": "/botmoji/static/js/main.a5be4adc.chunk.js.map",
+    "runtime-main.js": "/botmoji/static/js/runtime-main.ebb16850.js",
+    "runtime-main.js.map": "/botmoji/static/js/runtime-main.ebb16850.js.map",
+    "static/js/2.a400fc03.chunk.js": "/botmoji/static/js/2.a400fc03.chunk.js",
+    "static/js/2.a400fc03.chunk.js.map": "/botmoji/static/js/2.a400fc03.chunk.js.map",
+    "index.html": "/botmoji/index.html",
+    "precache-manifest.f7153a8f977aa1b8186a30256ec49124.js": "/botmoji/precache-manifest.f7153a8f977aa1b8186a30256ec49124.js",
+    "service-worker.js": "/botmoji/service-worker.js",
+    "static/css/main.78ff8561.chunk.css.map": "/botmoji/static/css/main.78ff8561.chunk.css.map",
+    "static/js/2.a400fc03.chunk.js.LICENSE.txt": "/botmoji/static/js/2.a400fc03.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebb16850.js",
+    "static/js/2.a400fc03.chunk.js",
+    "static/css/main.78ff8561.chunk.css",
+    "static/js/main.a5be4adc.chunk.js"
+  ]
+}
