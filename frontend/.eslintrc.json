@@ -1,0 +1,19 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "extends": ["plugin:react/recommended"],
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "error",
+    "func-names": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "security/detect-object-injection": "off"
+  }
+}
