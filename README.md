@@ -128,6 +128,10 @@ rasa run --enable-api --cors "*"
 
 You need to create account on [Snapkit Developer Portal](https://kit.snapchat.com/) and then edit the respective parts at [index.html](https://github.com/Vedant1202/botmoji/blob/234e8d0d8ed40b19cb122bbccdf4278fb5d84119/frontend/public/index.html#L46).
 
+
+Once that is configured, you can edit the `sampleUser` to `false` on [config.js](https://github.com/Vedant1202/botmoji/blob/master/frontend/src/config/config.js)
+
+
 ### For a reference of packages installed, I've also listed a [requirements.txt](https://github.com/Vedant1202/botmoji/blob/master/rasa-smalltalk/requirements.txt) file. 
 
 
