@@ -2,11 +2,11 @@ import React from 'react';
 import Moji from '../../components/moji/moji.component';
 import axios from 'axios';
 
-import '../../fonts/Montserrat.css';
 import './moji-container.styles.scss';
 import { createStructuredSelector } from 'reselect';
 import { selectCurrentMessages } from '../../redux/messages/messages.selector';
 import { connect } from 'react-redux';
+import { config } from '../../config/config';
 
 class MojiContainer extends React.Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class MojiContainer extends React.Component {
 
   async componentDidUpdate() {
     const { externalId } = this.props.currentUser;
-    const response = await axios.post(`http://localhost:5005/conversations/${externalId.replaceAll('/', '')}/predict`);
+    const response = await axios.post(`${config.rasaUrl}/conversations/${externalId.replaceAll('/', '')}/predict`);
 
     console.log(response.data.scores[0].action);
     this.setState({

@@ -6,6 +6,7 @@ import { createStructuredSelector } from 'reselect';
 import { selectCurrentMessages } from '../../redux/messages/messages.selector';
 import { connect } from 'react-redux';
 import { setCurrentMessages } from '../../redux/messages/messages.actions.js';
+import { config } from '../../config/config';
 
 class TextField extends React.Component {
   constructor(props) {
@@ -53,7 +54,7 @@ class TextField extends React.Component {
         messages: [...currMessages],
       });
       
-      const response = await axios.post('http://localhost:5005/webhooks/rest/webhook', data);
+      const response = await axios.post(`${config.rasaUrl}/webhooks/rest/webhook`, data);
       
       if (response.data.length > 0) {
         currMessages.push({
