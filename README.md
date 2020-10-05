@@ -114,4 +114,4 @@ rasa run --enable-api --cors "*"
 ### For a reference of packages installed, I've also listed a [requirements.txt](https://github.com/Vedant1202/botmoji/blob/master/rasa-smalltalk/requirements.txt) file. 
 
 
-This project is licensed with the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed with the [BSD-3 License](https://opensource.org/licenses/BSD-3-Clause).
