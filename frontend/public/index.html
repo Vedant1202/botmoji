@@ -53,13 +53,6 @@
           handleResponseCallback: function () {
             snap.loginkit.fetchUserInfo().then(
               function (result) {
-                console.log("User info:", result.data.me);
-                document.getElementById("display_name").innerHTML =
-                  result.data.me.displayName;
-                document.getElementById("bitmoji").src =
-                  result.data.me.bitmoji.avatar;
-                document.getElementById("external_id").src =
-                  result.data.me.externalId;
                 localStorage.setItem('snap-user', JSON.stringify(result.data.me));
                 window.location.assign('/');
               },
