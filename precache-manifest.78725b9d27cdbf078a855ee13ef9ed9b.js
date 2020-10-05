@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb69512344259fe74b63a3ba4c4c8dd8",
+    "revision": "e28185d1eae1a7f87cee518ccdccd5cf",
     "url": "/botmoji/index.html"
   },
   {
