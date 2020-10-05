@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13c847bbec1fbb2c08ca33b4faeb61c0",
+    "revision": "0619e05b825c061f016f958c99244a52",
     "url": "/botmoji/index.html"
   },
   {
-    "revision": "c73c76adb027fd012e0d",
+    "revision": "52bfb3c8ac20de0321b3",
     "url": "/botmoji/static/css/main.78ff8561.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/botmoji/static/js/2.f1e13f14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c73c76adb027fd012e0d",
-    "url": "/botmoji/static/js/main.a6b474ed.chunk.js"
+    "revision": "52bfb3c8ac20de0321b3",
+    "url": "/botmoji/static/js/main.c1eb131f.chunk.js"
   },
   {
     "revision": "fa1a31d56355120f8172",
